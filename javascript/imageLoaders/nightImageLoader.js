@@ -4,10 +4,7 @@ window.onload = function () {
   for (let i = 1; i <= 19; i++) {
     const img = document.createElement("img");
     img.classList.add("thumbnail", "lazyload");
-    img.setAttribute(
-      "data-src",
-      `/personal_website/images/night_images/${i}.png`
-    );
+    img.setAttribute("data-src", `../images/night_images/${i}.png`);
     img.onclick = function () {
       showDivFix(i);
     };
@@ -24,7 +21,7 @@ window.onload = function () {
 
     const img = document.createElement("img");
     img.classList.add("picture");
-    img.setAttribute("src", `/personal_website/images/night_images/${i}.png`);
+    img.setAttribute("src", `../images/night_images/${i}.png`);
     img.setAttribute("alt", `Image ${i}`);
 
     divClass.appendChild(img);

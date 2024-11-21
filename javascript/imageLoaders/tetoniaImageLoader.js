@@ -4,10 +4,7 @@ window.onload = function () {
   for (let i = 1; i <= 143; i++) {
     const img = document.createElement("img");
     img.classList.add("thumbnail", "lazyload");
-    img.setAttribute(
-      "data-src",
-      `/personal_website/images/tetonia_images/${i}.jpg`
-    );
+    img.setAttribute("data-src", `../images/tetonia_images/${i}.jpg`);
     img.onclick = function () {
       showDivFix(i);
     };
@@ -24,7 +21,7 @@ window.onload = function () {
 
     const img = document.createElement("img");
     img.classList.add("picture");
-    img.setAttribute("src", `/personal_website/images/tetonia_images/${i}.jpg`);
+    img.setAttribute("src", `../images/tetonia_images/${i}.jpg`);
     img.setAttribute("alt", `Image ${i}`);
 
     divClass.appendChild(img);

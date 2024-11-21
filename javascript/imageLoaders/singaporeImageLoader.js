@@ -4,10 +4,7 @@ window.onload = function () {
   for (let i = 1; i <= 126; i++) {
     const img = document.createElement("img");
     img.classList.add("thumbnail", "lazyload");
-    img.setAttribute(
-      "data-src",
-      `/personal_website/images/singapore_images/${i}.jpeg`
-    );
+    img.setAttribute("data-src", `../images/singapore_images/${i}.jpeg`);
     img.onclick = function () {
       showDivFix(i);
     };
@@ -24,10 +21,7 @@ window.onload = function () {
 
     const img = document.createElement("img");
     img.classList.add("picture");
-    img.setAttribute(
-      "src",
-      `/personal_website/images/singapore_images/${i}.jpeg`
-    );
+    img.setAttribute("src", `../images/singapore_images/${i}.jpeg`);
     img.setAttribute("alt", `Image ${i}`);
 
     divClass.appendChild(img);

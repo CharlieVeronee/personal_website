@@ -12,16 +12,22 @@ Welcome to the source code of my personal website – [charlieveronee.com](https
 ## 📁 Project Structure
 
 personal_website/
-├── css/ # Stylesheets
-├── images/ # Full-res photos and thumbnails
-├── javascript/ # Carousel, gallery logic, lazy loading
-├── projects/ # Individual project HTML pages
-├── index.html # Homepage
-└── README.md # You're here
+
+├── css/ # Custom stylesheets for layout and design
+
+├── images/ # Full-resolution images and thumbnails
+
+├── javascript/ # Interactive components: carousels, gallery scripts, lazy loading
+
+├── projects/ # Standalone HTML pages for individual projects
+
+├── index.html # Site homepage
+
+└── README.md # Project overview and documentation
 
 ## 📸 Featured Projects
 
-Silent Spaces - Documentary photography project looking at rural community and migration outside of Durham, NC
-Night Lights – Durham black and white night time landscape series shot on 4x5 film with view camera
-Tetonia - Expansive landscapes of rural Idaho and Wyoming shot on Fujifilm X-T30ii (also in book form)
-Singapore - Architectural photography series across Singapore shot on Fujifilm X-T30ii (also in book form)
+- Silent Spaces - Documentary photography project looking at rural community and migration outside of Durham, NC
+- Night Lights – Durham black and white night time landscape series shot on 4x5 film with view camera
+- Tetonia - Expansive landscapes of rural Idaho and Wyoming shot on Fujifilm X-T30ii (also in book form)
+- Singapore - Architectural photography series across Singapore shot on Fujifilm X-T30ii (also in book form)
